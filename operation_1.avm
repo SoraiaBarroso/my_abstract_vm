@@ -1,0 +1,38 @@
+; -------------
+; operation_1.avm -
+; -------------
+
+push int32(42)
+push int32(33)
+add
+;poney
+push float(44.55)
+mul
+push double(42.42)
+;comment
+push int32(42)
+dump
+pop
+exit
+
+;push int8(97)
+;'a'
+;push int8(108)
+;'l'
+;push int8(97)
+;'a'
+;push int8(111)
+;'o'
+;push int8(107)
+;'k'
+;print
+;pop
+;print
+;pop
+;print
+;pop
+;print
+;pop
+;print
+;pop
+;exit
