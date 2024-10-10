@@ -75,7 +75,7 @@ dump
 pop
 assert double(42.42)
 exit
->./avm ./sample.avm
+>./avm  ./operation_1.avm
 42
 42.42
 3341.25
