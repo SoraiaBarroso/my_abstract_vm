@@ -26,6 +26,7 @@ $(TARGET): $(OBJS)
 
 # Compiling
 $(OBJ_DIR)/%.o: $(SRC_DIR)/%.cpp
+ 	@mkdir -p $(OBJ_DIR) # Ensure obj directory exists 
 	$(C) $(CFLAGS) -c $< -o $@
 
 # Clean
